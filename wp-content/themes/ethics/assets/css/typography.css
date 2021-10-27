@@ -1,0 +1,26 @@
+.list-type-1 {
+    counter-reset: number;
+}
+.page-content ul,
+.page-content li{
+    list-style-type: inherit;
+    list-style-position: inside;
+    list-style-image: inherit;
+    margin: 10px 0;
+    padding: 0
+}
+.page-content ol{
+    margin: 10px 0;
+    padding: 0
+}
+.page-content ul ul,
+.page-content ol ol{
+   padding-left:30px
+}
+.list-type-4{
+    list-style-type: none !important;
+
+}
+.list-type-4 li i{
+    margin-right: 10px;
+}
